@@ -1,0 +1,13 @@
+PLAN: 
+
+1. Develop the homepage/post listing within the index.html, 
+along with CSS styling.
+
+2. Develop the create post within the new-post.html 
+along with the functionality within the script.js
+
+3. Develop the view and edit within post.html and 
+the functionality within script.js
+
+4. Develop the delete function within post.html and 
+script.js, also the final touches of the page .   
