@@ -28,4 +28,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
             alert("Post updated");
     });
+
+    document.getElementById("delete-btn").addEventListener("click", function(){
+        if (confirm("Please confirm you want to delete this post")){
+          storedPosts.splice(postId, 1);  
+          localStorage.setItem("blogPosts", JSON.stringify(storedPosts));
+            document.getElementById("post-details").innerHTML = "<h2>Post Deleted</h2>";
+        }
+    })
 });
